@@ -1,0 +1,7 @@
+{
+  "name": "ph-prueba-1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
