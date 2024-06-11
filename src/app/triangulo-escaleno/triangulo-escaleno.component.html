@@ -1,0 +1,21 @@
+<h1>Triangulo Escaleno</h1>
+
+<ion-list lines="none">
+  <ion-item>
+    <ion-input [(ngModel)]="lado1Str" type="number" label="Lado 1" label-placement="floating" fill="solid" placeholder="10"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="lado2Str" type="number" label="Lado 2" label-placement="floating" fill="solid" placeholder="10"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="lado3Str" type="number" label="Lado 3" label-placement="floating" fill="solid" placeholder="10"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-button (click)="calcularPerimetro()">Calcular Perimetro</ion-button>
+  </ion-item>
+  <ion-item>
+    {{ resultado }}
+  </ion-item>
+</ion-list>
+
+
